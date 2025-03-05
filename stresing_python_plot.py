@@ -30,6 +30,6 @@ def read_and_plot_hdf5(file_path):
 		print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-	hdf5_file_path = "example.h5"  # Path to your HDF5 file
+	hdf5_file_path = "measurement.h5"  # Path to your HDF5 file
 	
 	read_and_plot_hdf5(hdf5_file_path)
