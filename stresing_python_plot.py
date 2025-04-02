@@ -1,3 +1,9 @@
+## @file: stresing_python_plot.py
+# @brief: This script reads an Stresing HDF5 file and plots the data contained within it.
+# @author: Florian Hahn
+# @date: 04.12.2024
+# @copyright: Copyright (c) 2024, Entwicklungsbüro Stresing. Released as public domain under the Unlicense.
+
 import h5py
 import numpy as np
 import matplotlib.pyplot as plt
